@@ -16,26 +16,26 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/about_1.png";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "different shapes in different colors";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm a B.Tech student studying at VIT University.Having rich hands on web deb and cloud.I'm a Microsoft Learn Student Ambassador and a Microsoft Student Partner,AWS and Azure certified.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
+  "Web Developer",
+  "Cloud Developer",
+  "MERN Stack",
+  "AWS",
+  "AZURE",
   "Graphic design",
 ];
 
@@ -45,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I'm zeal for learning new technologies and acing the ones I'm working on. I do possess strong analytical and logical reasoning skills with problem-solving capabilities.";
 
 const About = () => {
   return (

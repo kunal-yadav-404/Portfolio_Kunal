@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/port.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "image with text project";
 
 /**
  * Project list
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "MentalAid",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Web App for Therapy Sessions, Live Video Recording, Study Facial Expression, Detailed Analysis using graphs of individual change in emotions with time ",
+    url: "https://github.com/kunal-yadav-404/MentalAid",
   },
   {
-    title: "Web Development for Beginners",
+    title: "LeaseOut",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Community/School/College based Sell, Share, Rent and Donate any product",
+    url: "www.leaseoutapp.com",
   },
   {
-    title: "My Resume Site",
+    title: "Restaurant Management System",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Staff Management, Reservation, Order, Feedback, Invoice, NGO Log",
+    url: "https://github.com/Sumedha2/E-Ramu",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Portfolio Site",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "My Portfolio Site, Built using ReactJS, HTML, CSS, JavaScript",
+    url: "https://github.com/kunal-yadav-404/Portfolio",
   },
 ];
 
