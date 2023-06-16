@@ -1,13 +1,13 @@
 /**
- * About component
+ * Achievement component
  *
- * Space for you to describe more about yourself.
+ * Space for you to describe more Achievement yourself.
  */
 
 import React from "react";
 
 /**
- * About background image
+ * Achievement background image
  *
  * Below is a sample image. Upload the image of your choice into the "images"
  * directory and import here for use. Then, set imageAltText to string that 
@@ -24,32 +24,40 @@ const imageAltText = "different shapes in different colors";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a B.Tech student studying at VIT University.Having rich hands on web deb and cloud.I'm a Microsoft Learn Student Ambassador and a Microsoft Student Partner,AWS and Azure certified.Curretly I'm under PwC Salesforce Training Program";
+  "Curretly I'm under PwC Salesforce Training Program and I'm a Microsoft Learn Student Ambassador.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
- * passionate about, or enjoy,
+ * passionate Achievement, or enjoy,
  */
 const skillsList = [
-  "Web Developer",
-  "Cloud Developer",
-  "MERN Stack",
-  "AWS",
-  "AZURE",
-  "Salesforce",
+  "Own Startup",
+  "206 days Streak Leetcode",
+  "Youtube Channel",
+  "CodeKaze Round 2",
+  "HackerRank 5 star C++",
+  "Comfest 1st Prize",
 ];
 
+const CertList = [
+    "AWS Certified Cloud Practitoner",
+    "Azure Certified Fundamentals",
+    "Azure Data Fundamentals",
+    "Azure AI Fundamentals",
+    "HackerRank C++ Certified",
+  ];
+
 /**
- * Use this to give more information about what you are passionate about,
+ * Use this to give more information Achievement what you are passionate Achievement,
  * how you best work, or even a quote. This will help someone learn more
- * about you on a professional level.
+ * Achievement you on a professional level.
  */
 const detailOrQuote =
-  "I'm zeal for learning new technologies and acing the ones I'm working on. I do possess strong analytical and logical reasoning skills with problem-solving capabilities.";
+  "AWS Certified Cloud Practitoner.Azure Certified Fundamentals. Azure Data Fundamentals. Azure AI Fundamentals.";
 
-const About = () => {
+const Achievement = () => {
   return (
-    <section className="padding" id="about">
+    <section className="padding" id="Achievement">
       <img className="background" src={image} alt={imageAltText} />
       <div
         style={{
@@ -60,7 +68,7 @@ const About = () => {
           textAlign: "center",
         }}
       >
-        <h2>About Myself</h2>
+        <h2>Achievements</h2>
         <p className="large">{description}</p>
         <hr />
         <ul
@@ -77,10 +85,24 @@ const About = () => {
           ))}
         </ul>
         <hr />
-        <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
+        <h3>Certifications</h3>
+        {/* <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p> */}
+        <ul
+          style={{
+            textAlign: "left",
+            columns: 2,
+            fontSize: "1.25rem",
+            margin: "2rem 3rem",
+            gap: "3rem",
+          }}
+        >
+          {CertList.map((skill) => (
+            <li key={skill}>{skill}</li>
+          ))}
+        </ul>
       </div>
     </section>
   );
 };
 
-export default About;
+export default Achievement;

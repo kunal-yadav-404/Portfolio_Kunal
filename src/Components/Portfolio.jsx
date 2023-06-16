@@ -33,14 +33,14 @@ const projectList = [
   {
     title: "MentalAid",
     description:
-      "Web App for Therapy Sessions, Live Video Recording, Study Facial Expression, Detailed Analysis using graphs of individual change in emotions with time ",
+      "Web App for Therapy Sessions, Live Video Recording, Study Facial Expression, Detailed Analysis using graphs of individual change in emotions with time.",
     url: "https://github.com/kunal-yadav-404/MentalAid",
   },
   {
     title: "LeaseOut",
     description:
-      "Community/School/College based Sell, Share, Rent and Donate any product",
-    url: "www.leaseoutapp.com",
+      "Community/School/College based Sell, Share, Rent and Donate any product. Using few AWS services and currently running on AWS EC2 instance.",
+    url: "http://www.leaseoutapp.com/",
   },
   {
     title: "Restaurant Management System",
@@ -51,8 +51,8 @@ const projectList = [
   {
     title: "Portfolio Site",
     description:
-      "My Portfolio Site, Built using ReactJS, HTML, CSS, JavaScript",
-    url: "https://github.com/kunal-yadav-404/Portfolio",
+      "My Portfolio Site, Built using ReactJS, HTML, CSS, JavaScript. Hosted using Azure Static Web Apps",
+    url: "https://black-pebble-05ed6c410.3.azurestaticapps.net/",
   },
 ];
 

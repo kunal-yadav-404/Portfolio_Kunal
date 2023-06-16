@@ -11,6 +11,8 @@ import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
 import Portfolio from "./Components/Portfolio";
+// import Education from "./Components/Education";
+import Achievement from "./Components/Achievement";
 
 import "./styles.css";
 
@@ -25,14 +27,14 @@ import "./styles.css";
  */
 const siteProps = {
   name: "Kunal Yadav",
-  title: "Web & Cloud Developer",
+  title: "Developer > Web | Cloud | Software ",
   email: "kunalyadav115599@gmail.com",
   gitHub: "kunal-yadav-404",
   instagram: "_wh0.am_i",
   linkedIn: "kunalyadav087",
   medium: "yadavkunal780",
   twitter: "KunalYadav404",
-  youTube: "kunalyadav8875",
+  youTube: "@kunalyadav8875",
 };
 
 const primaryColor = "#4E567E";
@@ -45,6 +47,8 @@ const App = () => {
       <Home name={siteProps.name} title={siteProps.title} />
       <About />
       <Portfolio />
+      {/* <Education /> */}
+      <Achievement />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
     </div>
   );
