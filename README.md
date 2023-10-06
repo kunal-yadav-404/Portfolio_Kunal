@@ -3,7 +3,7 @@
 In this repository, created a portfolio site using GitHub Codespaces and Copilot and deployed using Azure Static Web Apps.
 
 
-## 🗃️ JavaScript Portfolio template
+## 🗃️ JavaScript Portfolio - Kunal Yadav
 
 This repo is to build a JavaScript personal portfolio frontend web application using the React framework
 
